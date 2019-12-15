@@ -14,11 +14,11 @@ function App() {
   return (
     <Table 
       columns={[
-        'Name',
-        'Column 2',
-        'Column 3',
-        'Column 4',
-        'Column 5'
+        ['Name', 'string'],
+        ['Column 2', 'number'],
+        ['Column 3', 'number'],
+        ['Column 4', 'number'],
+        ['Column 5', 'number']
       ]}
       data={data}
     />
