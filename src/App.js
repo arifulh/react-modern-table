@@ -8,6 +8,41 @@ const data = [
   ['Ice cream sandwich', 237, 9.0, 37, 4.3],
   ['Eclair', 262, 16.0, 24, 6.0],
   ['Cupcake', 305, 3.7, 67, 4.3],
+  ['Gingerbread', 356, 16.0, 49, 3],
+  ['Frozen yoghurt', 159, 6.0, 24, 4.0],
+  ['Ice cream sandwich', 237, 9.0, 37, 4.3],
+  ['Eclair', 262, 16.0, 24, 6.0],
+  ['Cupcake', 305, 3.7, 67, 4.3],
+  ['Gingerbread', 356, 16.0, 49, 3],
+  ['Frozen yoghurt', 159, 6.0, 24, 4.0],
+  ['Ice cream sandwich', 237, 9.0, 37, 4.3],
+  ['Eclair', 262, 16.0, 24, 6.0],
+  ['Cupcake', 305, 3.7, 67, 4.3],
+  ['Gingerbread', 356, 16.0, 49, 3],
+  ['Frozen yoghurt', 159, 6.0, 24, 4.0],
+  ['Ice cream sandwich', 237, 9.0, 37, 4.3],
+  ['Eclair', 262, 16.0, 24, 6.0],
+  ['Cupcake', 305, 3.7, 67, 4.3],
+  ['Gingerbread', 356, 16.0, 49, 3],
+  ['Frozen yoghurt', 159, 6.0, 24, 4.0],
+  ['Ice cream sandwich', 237, 9.0, 37, 4.3],
+  ['Eclair', 262, 16.0, 24, 6.0],
+  ['Cupcake', 305, 3.7, 67, 4.3],
+  ['Gingerbread', 356, 16.0, 49, 3],
+  ['Frozen yoghurt', 159, 6.0, 24, 4.0],
+  ['Ice cream sandwich', 237, 9.0, 37, 4.3],
+  ['Eclair', 262, 16.0, 24, 6.0],
+  ['Cupcake', 305, 3.7, 67, 4.3],
+  ['Gingerbread', 356, 16.0, 49, 3],
+  ['Frozen yoghurt', 159, 6.0, 24, 4.0],
+  ['Ice cream sandwich', 237, 9.0, 37, 4.3],
+  ['Eclair', 262, 16.0, 24, 6.0],
+  ['Cupcake', 305, 3.7, 67, 4.3],
+  ['Gingerbread', 356, 16.0, 49, 3],
+  ['Frozen yoghurt', 159, 6.0, 24, 4.0],
+  ['Ice cream sandwich', 237, 9.0, 37, 4.3],
+  ['Eclair', 262, 16.0, 24, 6.0],
+  ['Cupcake', 305, 3.7, 67, 4.3],
   ['Gingerbread', 356, 16.0, 49, 3]
 ]
 function App() {
@@ -21,6 +56,7 @@ function App() {
         ['Column 5', 'number']
       ]}
       data={data}
+      paginate={8}
     />
   );
 }
