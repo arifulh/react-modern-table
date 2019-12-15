@@ -1,10 +1,8 @@
 import React from 'react';
-import { Button } from '@storybook/react/demo';
+import Table from './components/Table';
 
-export default { title: 'Button' };
+export default { title: 'Table' };
 
-export const withText = () => <Button>Hello Button</Button>;
-
-export const withEmoji = () => (
-  <Button><span role="img" aria-label="so cool">😀 😎 👍 💯</span></Button>
-);
+export const BasicTable = () => (
+  <Table />
+)
