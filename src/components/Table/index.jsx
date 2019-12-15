@@ -1,22 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import _ from 'lodash'
-import styled, { css } from 'styled-components'
 
-
-const Button = styled.button`
-  background: transparent;
-  border-radius: 3px;
-  border: 2px solid palevioletred;
-  color: palevioletred;
-  margin: 0.5em 1em;
-  padding: 0.25em 1em;
-
-${props => props.primary && css`
-  background: palevioletred;
-  color: white;
-`}
-`;
+import './index.css'
 
 const TableContainer = props => {
   return(
@@ -103,6 +89,8 @@ class Table extends React.Component {
         perPage: (paginate || data.length),
         paginate: paginate ? true : false 
       })
+
+      
   }
 
   sortByColumn(columnIndex, columnType) {
