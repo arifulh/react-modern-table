@@ -56,7 +56,7 @@ function App() {
         ['Column 5', 'number']
       ]}
       data={data}
-      paginate={8}
+      // paginate={4}
     />
   );
 }
